@@ -1,0 +1,46 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333; /* Dark gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.animation-container {
+    position: relative;
+    text-align: center; /* Center text within the container */
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* or a specific height */
+}
+.content {
+    text-align: center;
+}
+
+
+.flying-text {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 0; /* Start off the screen on the left */
+    animation: flyIn 2s ease-in-out forwards;
+}
+
+@keyframes flyIn {
+    0% {
+        left: -100px; /* Start off the screen on the left */
+        opacity: 0;
+    }
+    100% {
+        left: 100%; /* End off the screen on the right */
+        opacity: 1;
+    }
+}
