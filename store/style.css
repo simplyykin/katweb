@@ -87,7 +87,7 @@ body {
 }
 
 .buy-button {
-    background-color: #8b0000;
+    background-color: #000;
     color: #fff;
     border: none;
   border-radius: 10px;
@@ -99,5 +99,5 @@ body {
 
 .buy-button:hover {
     background-color: #fff;
-    color: #8b0000;
+    color: #000;
 }
