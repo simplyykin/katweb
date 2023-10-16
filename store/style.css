@@ -57,7 +57,9 @@ body {
     font-weight: bold;
 }
 
-
+.eimage {
+ max-width: 100%;
+}
 .product {
     background: rgba(255, 255, 255, 0);
       backdrop-filter: blur(5px);
