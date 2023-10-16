@@ -48,9 +48,11 @@ body {
     margin: 0 auto; /* Center the grid within the available space */
 }
 .eldorado {
-    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px;
     text-align: center;
     justify-items: center;
+    margin: 0 auto; /* Center the grid within the available space */
 }
 
 .bold-price {
